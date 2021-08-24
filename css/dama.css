@@ -1,0 +1,87 @@
+
+
+
+body{
+    /* 
+    MARGEN */
+    padding-top: 20px;
+    /* tipo de fuente para todo */
+    font-family:Arial, Helvetica, sans-serif;
+
+/* 
+    color de fondo  */
+    background: #454564;
+    /* tamaño de letra */
+    font-size: 25px;
+}
+
+
+*{
+margin: 0;
+padding: 0;
+
+}
+#principal{
+    /* color de letra principal primaria  */
+    background-color:#030107;
+    /* el tamaño de la maqietacion adentro */
+       width: 100%;
+       
+    margin: 0 auto;
+
+
+
+}
+header{
+    /* color del principal colegio garcia  */
+    background-color:#fdfdfd;
+    text-align: center;
+       padding-bottom: 15px;
+
+}
+
+nav{
+    /* color de las letras primaria y otros  */
+    color: #eae9f0;
+    
+/* cursiva en primaria  */
+    font-weight:bold ;
+
+    /* arial en primaria y otros  */
+    font-family:Arial, Helvetica, sans-serif;
+    
+    /* tamaño de letra primaria */
+font-size: 20px;
+    /* font-style: italic; */
+    text-align: center;
+} 
+
+/* uno con vigueta y otra lista no 
+nav >  ul {
+list-style: none;
+} */
+
+ ul {
+
+    list-style: none;
+    
+    }
+
+    nav > ul > li{
+    
+   /* el grueso de la cuadro primaria pre */
+        padding: 20px;
+        background-color:#090b0c ;
+    }
+
+    
+
+    
+    section{
+       /*  color de noticias imagenes  */
+       background-color:#f5f7f6;
+       height: 1450px;
+width: 100%;
+            
+          
+       

@@ -1,0 +1,110 @@
+
+body{
+    /* 
+    MARGEN */
+    padding-top: 30px;
+    /* tipo de fuente para todo */
+    font-family:Arial, Helvetica, sans-serif;
+
+ /*    color de la cinta donde esta las pestañas */
+    background: #04090e;
+    /* tamaño de letra */
+    font-size: 25px;
+}
+
+
+
+*{
+margin:0;
+padding: 0;
+
+}
+#principal{
+    /* color de letra principal primaria  */
+    background-color:#02071a;
+    /* el tamaño de la maqietacion adentro */
+       width: 100%;
+       
+    margin: 0 auto;
+
+
+
+}
+header{
+    /* color del principal venta de ZAPATOS  */
+    background-color:#060207;
+    text-align: center;
+       padding-bottom: 20px;
+
+}
+
+nav{
+    /* color de las letras bodas */
+    color: #c5b8b8;
+    
+/* cursiva en primaria  */
+    font-weight:bold ;
+
+    /* arial en primaria y otros  */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* tamaño de letra primaria */
+font-size: 30px;
+    /* font-style: italic; */
+    text-align: center;
+} 
+
+/* uno con vigueta y otra lista no 
+nav >  ul {
+list-style: none;
+} */
+
+ ul {
+
+    list-style: none;
+    
+    }
+
+    nav > ul > li{
+        display: inline-block;
+   /* el grueso de la cuadro primaria pre */
+        padding: 5px;
+    }
+
+
+    section{/* 
+        fondo de noticias */
+background-color:hsl(200, 33%, 98%) ;
+
+height: 1100px;
+width: 80%;
+
+/* cuadro de vision y mision */
+float: left;
+
+    }
+
+
+
+    aside{
+        /* color del cuadro donde estan anilo */
+        background-color:  #062222; 
+        
+        /* tamaño del cuadro vision  */
+        height: 1100px;
+        
+        width: 20%;
+        float: right;
+        font-weight:bold ;
+        color: #bdc2c4;
+        font-size: 25px;
+        
+            }
+
+            footer{
+                        color: #2c060e;
+
+text-align: center;
+background-color:#030a1a ;
+
+}

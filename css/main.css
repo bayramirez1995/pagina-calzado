@@ -1,0 +1,113 @@
+
+body{
+    /* 
+    MARGEN */
+    padding-top: 0px;
+    /* tipo de fuente para todo */
+    font-family:Arial, Helvetica, sans-serif;
+
+ /*    color de la cinta donde esta las pestañas */
+    background: #f7f8fa;
+    /* tamaño de letra */
+    font-size: 20px;
+}
+
+
+
+*{
+margin:0;
+padding: 0;
+
+}
+#principal{
+    /* color de letra principal   */
+    background-color:#f7f7f8;
+    /* el tamaño de la maqietacion adentro */
+       width: 95%;
+       
+    margin: 0 auto;
+
+
+
+}
+header{
+    /* color del principal venta de ZAPATOS  */
+ 
+    background-color:#fafffe;
+    text-align: center;
+       padding-bottom: 20px;
+
+}
+
+nav{
+    /* color de las letras DAMAS CABALLEROS  y otros  */
+    color: #f0f4f8;
+    
+/* cursiva en primaria  */
+    font-weight:bold ;
+
+    /* arial en primaria y otros  */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* tamaño de letra menu */
+font-size: 25px;
+    /* font-style: italic; */
+    text-align: center;
+} 
+
+/* uno con vigueta y otra lista no 
+nav >  ul {
+list-style: none;
+} */
+
+ ul {
+
+    list-style: none;
+    
+    }
+
+    nav > ul > li{
+        display: inline-block;
+   /* el grueso de la cuadro */
+        padding: 5px;
+    }
+
+
+    section{/* 
+        fondo de noticias */
+background-color:hsl(192, 33%, 97%) ;
+height: 1000px;
+width: 80%;
+
+/* cuadro de vision y mision */
+float: left;
+
+    }
+
+
+
+    aside{
+       /*  color de fondo vision mision */
+        background-color:  #f8f8f8; 
+        
+        /* tamaño del cuadro vision  */
+        height: 1000px;
+        
+        width: 20%;
+        float: right;
+        font-weight:bold ;
+        /* color de la letra de vision y mision */
+        color: #0a020a;
+        font-size: 17px;
+            }
+
+            
+
+            footer{
+            /*     color de letras inferior e-mail */
+                        color: #faf9fc;
+                        
+
+text-align: center;
+background-color:#05060c ;
+            }
